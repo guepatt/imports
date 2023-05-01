@@ -1,7 +1,7 @@
 version 1.0
 
-import "Utilities.wdl" as Utils
-import "Qc.wdl" as QC
+import "https://raw.githubusercontent.com/guepatt/imports/main/Utilities.wdl" as Utils
+import "https://raw.githubusercontent.com/guepatt/imports/main/Qc.wdl" as QC
 
 workflow BamToCram {
 
