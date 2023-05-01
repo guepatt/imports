@@ -1,10 +1,10 @@
 version 1.0
 
-import "GermlineVariantDiscovery.wdl" as Calling
-import "Qc.wdl" as QC
-import "Utilities.wdl" as Utils
-import "BamProcessing.wdl" as BamProcessing
-import "DragenTasks.wdl" as DragenTasks
+import "https://raw.githubusercontent.com/guepatt/imports/main/GermlineVariantDiscovery.wdl" as Calling
+import "https://raw.githubusercontent.com/guepatt/imports/main/Qc.wdl" as QC
+import "https://raw.githubusercontent.com/guepatt/imports/main/Utilities.wdl" as Utils
+import "https://raw.githubusercontent.com/guepatt/imports/main/BamProcessing.wdl" as BamProcessing
+import "https://raw.githubusercontent.com/guepatt/imports/main/DragenTasks.wdl" as DragenTasks
 
 workflow VariantCalling {
 
